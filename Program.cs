@@ -9,6 +9,21 @@ namespace BynaryConsoleAppl
     {
         static void Main(string[] args)
         {
+            SomeClass.SomeMethod1();
+            SomeClass.SomeMethod2();
+        }
+    }
+
+    class SomeClass
+    {
+        public static string SomeMethod1()
+        {
+            return "Method 1";
+        }
+
+        public static string SomeMethod2()
+        {
+            return "Method 2";
         }
     }
 }
