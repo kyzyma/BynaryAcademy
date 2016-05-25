@@ -11,6 +11,7 @@ namespace BynaryConsoleAppl
         {
             SomeClass.SomeMethod1();
             SomeClass.SomeMethod2();
+            SomeClass.NewMethod();
         }
     }
 
