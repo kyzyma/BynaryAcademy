@@ -25,5 +25,10 @@ namespace BynaryConsoleAppl
         {
             return "Method 2";
         }
+
+        public static string NewMethod()
+        {
+            return "NewMethod";
+        }
     }
 }
